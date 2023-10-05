@@ -1,13 +1,13 @@
-package com.lenibonje.SoapClient;
+package com.lenibonje.soapserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SoapClientApplication {
+public class SoapServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SoapClientApplication.class, args);
+		SpringApplication.run(SoapServerApplication.class, args);
 	}
 
 }
